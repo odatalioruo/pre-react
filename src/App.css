@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: url("./img/TOQUIO.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100;
+  min-height: 30vh;
+  max-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* position:absolute; */
+}
+.App-body {
+   min-height: 100vh;
+}
+.App-link {
+  color: #61dafb;
+}
+.about {
+  background-color: aquamarine;
+  min-height: 40vh;
+  overflow: hidden;
+}
+.works {
+  background: url("./img/TOQUIO.webp");
+  min-height: 54vh;
+  overflow: hidden;
+}
+.contact {
+  background-color: #d0e0ff;
+  min-height: 20vh;
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  width: 75vw;
+  margin:auto;
+  justify-content: center;
+  align-content: space-around!important;
+}
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+ padding-top: 9em;
+}
+.columnn {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+ /* padding-top: 0em; */
+}
+.App-logo{
+  border-radius: 50%;
+}
+.apres{
+  background-color: white;
+  padding: 2em 2em;
+  border-radius: 2em;
+  max-width: 22vw;
+  min-height: 35.5vh;
+}
+
+.coolfont{font-size: 1.1em;
+color: #000; font-weight: 600;}
+p{font-size: 1.130205rem;}
+.App-lain {height:34vmin}
+.App-normal {height:34vmin}
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
